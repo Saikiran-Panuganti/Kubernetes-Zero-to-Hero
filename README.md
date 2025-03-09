@@ -11,6 +11,19 @@ Dependencies required
 2. AWS CLI
 3. kubectl
 
+## when you connect with AWS CLI ,if you got this error
+if you run with :sudo apt install awscli
+error : E: package awscli has no installation candidate
+
+use these commands:
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+ 
+unzip awscliv2.zip
+ 
+sudo ./aws/install
+ 
+
+
 ###  Install dependencies
 
 ```
